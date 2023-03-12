@@ -3,7 +3,7 @@ import * as React from "react"
 import Header from "../organisms/Header"
 import Footer from "../organisms/Footer"
 
-const Layout = () => {
+export default function Main() {
     return (
         <div>
             <Header />
@@ -14,5 +14,3 @@ const Layout = () => {
         </div>
     )
 }
-
-export default Layout;

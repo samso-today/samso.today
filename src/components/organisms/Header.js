@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 
 import NavigationBar from '../molecules/NavigationBar'
 
-const Header = () => {
+export default function Header() {
     const titleData = useStaticQuery(graphql`
     query {
       site {
@@ -25,5 +25,3 @@ const Header = () => {
         </header>
     )
 }
-
-export default Header;

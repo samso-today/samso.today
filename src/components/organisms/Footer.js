@@ -4,7 +4,7 @@ import { faFacebook, faGithub, faLinkedin, faInstagram } from '@fortawesome/free
 
 import "./Footer.css"
 
-const Footer = () => {
+export default function Footer() {
     return (
         <footer>
             <ul className="external-links">
@@ -25,5 +25,3 @@ const Footer = () => {
         </footer>
     )
 }
-
-export default Footer;
