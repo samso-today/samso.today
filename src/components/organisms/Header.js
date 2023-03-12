@@ -1,16 +1,24 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 
 import NavigationBar from '../molecules/NavigationBar'
 
 const Header = () => {
-    const title = "SAMSO.TODAY";
+    const titleData = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
 
     return (
         <header>
             <h3 className="title">
                 <Link to="/">
-                    {title}
+                    {titleData.site.siteMetadata.title}
                 </Link>
             </h3>
             <NavigationBar />

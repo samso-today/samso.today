@@ -3,8 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `samso.today`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: '오늘의 쌤소',
+    author: 'Sam So',
+    description: '오늘의 쌤소',
+    siteUrl: `https://samso.blog.not.decided`,
   },
   plugins: [],
 }
