@@ -1,0 +1,5 @@
+nav .navigation li {
+    display: inline-flex;
+    margin: 0 0.5rem;
+    color: #333333;
+}
