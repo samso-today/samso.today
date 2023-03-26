@@ -1,11 +1,9 @@
 import * as React from "react"
-import Main from "../components/templates/Main"
+import Main from "../components/templates/Main/Main"
 
 export default function MainPage() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Main />
   )
 }
 

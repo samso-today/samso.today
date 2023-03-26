@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from 'gatsby'
 
-import Post from "../../components/templates/Post"
+import Post from "../../components/templates/Post/Post"
 
 export default function Layout({ data }) {
   return (
@@ -15,6 +15,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+        subTitle
+        date(formatString: "YYYY-MM-DD")
+        tags
         thumbnail {
           childImageSharp {
             gatsbyImageData(width: 800)

@@ -1,5 +1,22 @@
+nav {
+    font-weight: 400;
+    display: flex;
+}
+
 nav .navigation li {
     display: inline-flex;
-    margin: 0 0.5rem;
+    margin-left: 30px;
     color: #333333;
+}
+
+nav .navigation li:first-child {
+    margin-left: 0;
+}
+
+nav .navigation li a {
+    transition: 0.33s;
+}
+
+nav .navigation li a:hover {
+    color: #344CB7;
 }
