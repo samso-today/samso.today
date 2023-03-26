@@ -1,0 +1,25 @@
+header {
+    height: 60px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1020px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 0px 20px;
+        width: 100%;
+    }
+}
+
+header .title {
+    display: flex;
+    align-items: center;
+}
+
+header .title .titleLogo {
+    height: 30px;
+}

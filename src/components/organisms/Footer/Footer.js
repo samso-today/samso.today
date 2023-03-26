@@ -11,7 +11,7 @@ export default function Footer() {
                 <li><a href="https://www.facebook.com/robotronic/">
                     <FontAwesomeIcon icon={faFacebook} />
                 </a></li>
-                <li><a href="https://www.instagram.com/samso.today/">
+                <li><a href="https://www.instagram.com/samso_today/">
                     <FontAwesomeIcon icon={faInstagram} />
                 </a></li>
                 <li><a href="https://www.linkedin.com/in/robotronic/">
@@ -21,7 +21,7 @@ export default function Footer() {
                     <FontAwesomeIcon icon={faGithub} />
                 </a></li>
             </ul>
-            <p className="copyright">Copyright ©SAMSO. All rights reserved.</p>
+            <p className="copyright">©SAMSO.</p>
         </footer>
     )
 }

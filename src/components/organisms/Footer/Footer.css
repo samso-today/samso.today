@@ -1,0 +1,26 @@
+footer {
+    height: 60px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1020px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    transform: translateY(-100%);
+}
+
+@media (max-width: 1024px) {
+    footer {
+        padding: 0px 20px;
+        width: 100%;
+    }
+}
+
+footer .external-links li {
+    display: inline-flex;
+    margin: 0 0.5rem;
+    color: #333333;
+}
