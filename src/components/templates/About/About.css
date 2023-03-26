@@ -1,0 +1,24 @@
+.about {
+    height: 100%;
+}
+
+main {
+    height: auto;
+    min-height: calc(100% - 60px);
+    padding-bottom: 60px;
+}
+
+main .main-wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1020px;
+}
+
+@media (max-width: 900px) {}
+
+@media (max-width: 1024px) {
+    main .main-wrapper {
+        padding: 0px 20px;
+        width: 100%;
+    }
+}
