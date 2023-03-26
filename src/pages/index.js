@@ -1,10 +1,25 @@
 import * as React from "react"
+import { graphql } from "gatsby";
+
 import Main from "../components/templates/Main/Main"
 
-export default function MainPage() {
+export default function MainPage({ data }) {
+  let propSiteMetadata = data.site?.siteMetadata;
+
   return (
-    <Main />
+    <Main siteMetadata={propSiteMetadata} />
   )
 }
 
-export const Head = () => <title>SAMSO.TODAY</title>
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        description
+        image
+        siteUrl
+        title
+      }
+    }
+  }
+`

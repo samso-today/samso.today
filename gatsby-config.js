@@ -3,9 +3,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: '오늘의 쌤소',
+    title: 'samso.today',
     author: 'Sam So',
-    description: '오늘의 쌤소',
+    description: '귀한 손님이 누추한 곳까지 찾아오시다니, 환영합니다!',
     image: `/thumbnail.png`,
     siteUrl: `https://samso.today`,
   },
@@ -38,6 +38,7 @@ module.exports = {
       options: {
         icon: 'static/favicon.png'
       }
-    }
+    },
+    'gatsby-plugin-react-helmet',
   ],
 }
