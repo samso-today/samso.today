@@ -1,11 +1,11 @@
 ---
-slug: test
-title: Have you ever heard Toad's amazing song?
-subTitle: So amazing so that you cannot listen to other songs for hours
-date: 2023-03-12
+slug: test-toad
+title: Have you ever heard Toad's amazing song again?
+subTitle: So so amazing so that you cannot listen to other songs for hours
+date: 2023-03-26
 tags:
   - test
-thumbnail: ./thumbnail_toad.png
+thumbnail: ./1.jpeg
 ---
 
 ## TEST
