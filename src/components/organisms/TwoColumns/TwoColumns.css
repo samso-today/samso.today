@@ -1,0 +1,25 @@
+.two-columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: calc(50% - 10px);
+}
+
+@media (max-width: 900px) {
+    .two-columns {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        word-break: keep-all;
+    }
+
+    .column img {
+        min-width: 200px;
+        width: 50%;
+    }
+}
