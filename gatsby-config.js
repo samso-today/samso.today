@@ -6,7 +6,8 @@ module.exports = {
     title: '오늘의 쌤소',
     author: 'Sam So',
     description: '오늘의 쌤소',
-    siteUrl: `https://samso.blog.not.decided`,
+    image: `/thumbnail.png`,
+    siteUrl: `https://samso.today`,
   },
   plugins: [
     {
@@ -32,5 +33,11 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-image',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'static/favicon.png'
+      }
+    }
   ],
 }
