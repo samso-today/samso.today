@@ -4,14 +4,17 @@ import { graphql } from "gatsby"
 import LogList from "../../components/templates/LogList/LogList"
 
 export default function logListPage({ data }) {
-    return (
-        < LogList data={data} />
-    )
+  return (
+    < LogList data={data} />
+  )
 }
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/logs/"}}) {
+    allMarkdownRemark(
+      filter: {fileAbsolutePath: {regex: "/logs/"}}
+      sort: {frontmatter: {date: DESC}}
+    ) {
       nodes {
         frontmatter {
           title
