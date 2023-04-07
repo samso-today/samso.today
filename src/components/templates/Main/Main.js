@@ -41,10 +41,3 @@ export default function Main({ siteMetadata }) {
         </div >
     )
 }
-
-/*
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/k36cEbuLG94?start=24&autoplay=1&mute=1" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                    <h1>안녕하세요, <br />데이터 엔지니어 소형석입니다.</h1>
-                    */
