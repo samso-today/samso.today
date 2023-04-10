@@ -11,7 +11,10 @@ export default function PostListsPage({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      filter: {fileAbsolutePath: {regex: "/posts/"}}
+      sort: {frontmatter: {date: DESC}}
+    ) {
       nodes {
         frontmatter {
           title
