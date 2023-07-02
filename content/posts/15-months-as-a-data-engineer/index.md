@@ -1,7 +1,4 @@
 ---
-title:
-date:
-
 slug: 15-months-as-a-data-engineer
 title: 회사를 15개월 동안 다니며 얻는 점, 아쉬운 점, 그리고 불안한 점
 subTitle: 삶을 잘 살아가고 있는지 정리해보자
