@@ -17,7 +17,7 @@ export default function PostList({ data }) {
                 <div>
                     <h1>{data.frontmatter?.title}</h1>
                     <h2>{data.frontmatter?.subTitle}</h2>
-                    <h4>{data.frontmatter?.date}</h4>
+                    <h3>{data.frontmatter?.date}</h3>
                 </div>
             </Link >
         </div >

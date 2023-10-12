@@ -13,7 +13,7 @@ export default function Log({ data }) {
   return (
     <div className="log">
       <h1>{data.frontmatter?.title}</h1>
-      <h4>{data.frontmatter?.date}</h4>
+      <h3>{data.frontmatter?.date}</h3>
       {videoJSX}
 
       <div dangerouslySetInnerHTML={{ __html: data.html }} />
