@@ -16,8 +16,9 @@ body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
 }
 
-ul {
-    padding-left: 0;
+main p,ul {
+    line-height: 1.8;
+    word-break: keep-all;
 }
 
 #___gatsby,
