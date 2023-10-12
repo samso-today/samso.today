@@ -16,7 +16,7 @@ body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
 }
 
-main p,ul {
+main p,ul,ol {
     line-height: 1.8;
     word-break: keep-all;
 }
