@@ -30,11 +30,10 @@ export default function Main({ siteMetadata }) {
                 <div class="main-wrapper">
                     <TwoColumns
                         leftContext={<img src={SamSoProfile} alt="Sam So Profile" width="100%" />}
+                        rightContext={<h2>I'm Sam,<br/>a versatile engineer<br/>with a people-oriented mindset<br/>and a keen eye for detail.</h2>
+                    }
                     />
 
-                    <h1>화룡점정.</h1>
-                    <p>용을 그릴 때 마지막으로 눈동자를 그린다는 뜻으로,<br />커다란 골조를 시작으로 세부적인 부분까지 신경쓴 창작물만이 후대에 기억될 수 있습니다.</p>
-                    <p>프로젝트 또한 빠른 속도만큼 태스크의 완성도가 중요합니다. <br />디테일을 바라보는 능력과 다양한 분야에 대한 경험을 기반으로,<br />위대한 개척자들이 한발짝 나아갈 때 무너지지 않는<br />튼튼한 기반을 만들어나가는 역할을 맡고 있습니다.</p>
                 </div>
             </main>
             <Footer />
