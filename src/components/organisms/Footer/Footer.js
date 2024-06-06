@@ -8,16 +8,13 @@ export default function Footer() {
     return (
         <footer>
             <ul className="external-links">
-                <li><a href="https://www.facebook.com/robotronic/">
-                    <FontAwesomeIcon icon={faFacebook} />
-                </a></li>
-                <li><a href="https://www.instagram.com/samso_today/">
+                <li><a href="https://www.instagram.com/samso.today/">
                     <FontAwesomeIcon icon={faInstagram} />
                 </a></li>
-                <li><a href="https://www.linkedin.com/in/robotronic/">
+                <li><a href="https://www.linkedin.com/in/samso-today/">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a></li>
-                <li><a href="https://github.com/robotroniq/">
+                <li><a href="https://github.com/samso-today/">
                     <FontAwesomeIcon icon={faGithub} />
                 </a></li>
             </ul>
